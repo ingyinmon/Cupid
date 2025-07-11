@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupid in the cloud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+        <img src="img/Cupid.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#find">Find Love</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button><a href="login.html">Log in</a></button>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home">
+    <div class="home-m">
+      <h1>Find Your Real Love</h1>
+      <p>
+        In a world full of endless scrolling and fleeting moments, here is your chance to slow down and feel something real. 
+        Whether you're searching for your soulmate, a genuine connection, or just someone who makes your heart race again — 
+        Cupid 💖 is where two hearts find the sky they belong in. Begin your love story with one message, one smile, one spark.
+    </p>
+      <a href="#" class="btn">Start Dating</a>
+    </div>
+     <div class="animated-heart-group">
+      <!-- Main Image -->
+      <div class="main-img">
+        <img src="img/p1.png" alt="Main Image" />
+      </div>
+
+      <!-- Circle Images -->
+      <div class="heart-img circle1"><img src="img/p1.png" alt="Circle 1" /></div>
+      <div class="heart-img circle2"><img src="img/p2.webp" alt="Circle 2" /></div>
+      <div class="heart-img circle3"><img src="img/p3.webp" alt="Circle 3" /></div>
+      <div class="heart-img circle4"><img src="img/p4.png" alt="Circle 4" /></div>
+      <div class="heart-img circle5"><img src="img/p5.webp" alt="Circle 5" /></div>
+      <div class="heart-img circle6"><img src="img/p6.webp" alt="Circle 6" /></div>
+    </div>
+  </section>
+
+  <!-- About section -->
+     <section id="about">
+        <div class="aboutcontainer"> 
+            <div class="wrapper">
+                <img src="img/boy.webp" alt="boy" width="400px">
+                <img src="img/girl.webp" alt="girl" width="400px">
+                <img src="img/hand.webp" alt="hand" width="400px">
+                <img src="img/date.webp" alt="date" width="400px">
+                <img src="img/ring.webp" alt="prewedding" width="400px">
+                <img src="img/preweddings.webp" alt="weddings" width="400px">
+                <img src="img/family.webp" alt="family" width="400px"> 
+            </div>
+        </div>
+        <div class="abouttext" >
+            <h2>About Us</h2>
+            <p>Cupid was founded by team B who believe everyone deserves a real chance at love and knew casual swiping app just weren't 
+                going to cut it.</p>
+            <h3>Our Mission</h3>
+            <p>To help singles of all genders and backgrounds find meaningful relationships whether that's romance, companionship, 
+                or love that lasts a lifetime.</p>
+        </div>
+     </section>
+
+<!-- Find love section -->
+    <section id="find">
+        <h2>Find your Partner</h2>
+        <div class="search">
+            <form>
+                <label for="user">Hi! I'm</label>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="others" value="Prefer not to say">
+                <label for="others">Prefer not to say</label>
+                <br /><br />
+                <label for="looking">Looking for</label>
+                <select name="gender" id="gender">
+                    <option value="select">Choose</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="others">Others</option>
+                </select>
+                <br />
+                <label for="from">From</label>
+                <input type="number" name="from" id="from" placeholder="18">
+                <label for="from">to</label>
+                <input type="number" name="to" id="to" placeholder="28">
+                <input type="submit" value="Search" style="background-color: #EE0057;color: #fff;">
+            </form>
+        </div>
+        <div class="profile">
+            <div class="profile-content">
+                <div class="profile-img">
+                    <img src="img/user1.webp" alt="profile">
+                </div>
+                <h2>Manon</h2>
+                <span>Age:23</span><br />
+                <button>Add to your match</button>
+            </div>
+            <div class="profile-content">
+                <div class="profile-img">
+                    <img src="img/user2.webp" alt="profile">
+                </div>
+                <h2>Yunah</h2>
+                <span>Age:21</span><br />
+                <button>Add to your match</button>
+            </div>
+            <div class="profile-content">
+                <div class="profile-img">
+                    <img src="img/user3.webp" alt="profile">
+                </div>
+                <h2>Minji</h2>
+                <span>Age:21</span><br />
+                <button>Add to your match</button>
+            </div>
+            <div class="profile-content">
+                <div class="profile-img">
+                    <img src="img/user4.webp" alt="profile">
+                </div>
+                <h2>Jay</h2>
+                <span>Age:22</span><br />
+                <button>Add to your match</button>
+            </div>
+        </div>
+        <div class="partner">
+            <div class="active">
+                <div class="userimg">
+                    <img src="img/user2.webp" alt="">
+                </div>
+                <h2>Yunah</h2>
+                <button>Chat</button>
+            </div>
+            <div class="active">
+                <div class="userimg">
+                    <img src="img/user3.webp" alt="">
+                </div>
+                <h2>Minji</h2>
+                <button>Chat</button>
+            </div>
+            <div class="active">
+                <div class="userimg">
+                    <img src="img/user4.webp" alt="">
+                </div>
+                <h2>Jay</h2>
+                <button>Chat</button>
+            </div>
+            <div class="active">
+                <div class="userimg">
+                    <img src="img/user5.webp" alt="">
+                </div>
+                <h2>Hyein</h2>
+                <button>Chat</button>
+            </div>
+            <div class="active">
+                <div class="userimg">
+                    <img src="img/user6.webp" alt="">
+                </div>
+                <h2>Iroha</h2>
+                <button>Chat</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section id="service">
+        <h2>Extra Services</h2>
+        <div class="serve">
+            <div class="service1">
+                <h3>Love Coaching</h3>
+                <p>Get expert dating advice and coaching tailored to your needs.</p>
+                <div class="service-img">
+                    <img src="img/coaching.webp" alt="coaching" width="230px">
+                </div>
+                <span>Freely get precious advices.</span>
+                <button>Book now</button>
+            </div>
+            <div class="service1">
+                <h3>Events & Meetups</h3>
+                <p>Join virtual speed dating or local singles’ events in your area.</p>
+                <div class="meetsup-img">
+                    <img src="img/Meetsup.webp" alt="meetsup">
+                    <img src="img/meetsup2.webp" alt="meetsup">
+                </div>
+                <span>Spend your quality time with your special one.</span>
+                <button>Learn more</button>
+            </div>
+            <div class="service1">
+                <h3>Horoscope Matching</h3>
+                <p>Find matches based on your zodiac sign and compatibility level.</p>
+                <div class="service-img">
+                    <img src="img/horoscope.webp" alt="horoscope" width="230px">
+                </div>
+                <span>Get to know your perfect match.</span>
+                <button>Join now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories section -->
+
+     <section id="stories">
+        <div class="storyheader">
+            <img src="img/redheart.png" alt="redheart" width="100px">
+            <h2>Success Stories</h2>
+            <p>True love in the outside world</p>
+        </div>
+        <div class="storyimg">
+           <div class="story">
+                <img src="img/girls.webp" alt="2love" width="300px">
+                <div class="text">
+                    <h2 style="color: red;">Rosie & Emily</h2>
+                    <p>"Rosie and Emily were stationed overseas together but they met on Cupid."</p>
+                </div>
+           </div>
+           <div class="story">
+                <img src="img/reallove (2).webp" alt="2love" width="300px">
+                <div class="text">
+                    <h2 style="color: red;">Chris & Marine</h2>
+                    <p>"It's thank to Cupid that Marine and I are able to live this beautiful life."</p>
+                </div>
+           </div>
+           <div class="story">
+                <img src="img/boys.webp" alt="2love" width="300px">
+                <div class="text">
+                    <h2 style="color: red">David & Kelvin</h2>
+                    <p>"He was my first thought when I woke up in the morning."</p>
+                </div>
+           </div>
+        </div>
+     </section> 
+
+     <!-- review section -->
+     <section id="review">
+        <h2>Customer Reviews</h2>
+        <div class="container">
+           <div class="box">
+                <div class="profileimg">
+                    <img src="img/fbprofile1.jpg" alt="fbprofile">
+                </div>
+                <div class="profilecontent">
+                    <h2>Chris</h2>
+                    <p>"Best dating app for relation seekers."</p>
+                    <p>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                    </p>
+                </div>
+           </div>
+           <div class="box">
+                <div class="profileimg">
+                    <img src="img/fbprofile2.webp" alt="fbprofile" width="100px">
+                </div>
+                <div class="profilecontent">
+                    <h2>David</h2>
+                    <p>"I like it because it's an app that allows you to chat casually."</p>
+                    <p>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                    </p>
+                </div>
+           </div>
+           <div class="box">
+                <div class="profileimg">
+                    <img src="img/fbprofile3.webp" alt="fbprofile" width="100px">
+                </div>
+                <div class="profilecontent">
+                    <h2>Lilly</h2>
+                    <p>"I recommend it because it is reliable app."</p>
+                    <p>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                    </p>
+                </div>
+           </div>
+           <div class="box">
+                <div class="profileimg">
+                    <img src="img/fbprofile4.jpg" alt="fbprofile">
+                </div>
+                <div class="profilecontent">
+                    <h2>Jessica</h2>
+                    <p>"It's really convenient to be able to find the
+type of partner I like."</p>
+                    <p>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                        <i class="fa-solid fa-star" style="color: gold;"></i>
+                    </p>
+                </div>
+           </div>
+        </div>
+     </section>
+
+    <section id="contact">
+        <div class="contactText">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="uname">Your Name</label>
+                <br/><br/>
+                <input type="text" name="uname" id="uname" placeholder="Enter your Name">
+                <br/><br/>
+                <label for="email">Your Email</label>
+                <br/><br/>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <br/><br/>
+                <label for="msg">Your Message</label>
+                <br/><br/>
+                <textarea name="msg" id="msg" placeholder="Comment here!!!"></textarea>
+                <br/><br/>
+                <center><input type="submit" value="Send &hearts;" style="background-color: #ee0047; color: #fff;" ></center>
+            </form>
+        </div>
+        <div class="contactInfo">
+            <div class="info">
+            <div class="sociallink">
+                <h2>Contact Link</h2>
+                <table>
+                    <tr>
+                        <td><i class="fa-brands fa-facebook"></i></td>
+                        <td> Facebook</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-instagram"></i></td>
+                        <td> Instagram</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-twitter"></i></td>
+                        <td> Twitter</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="socialinfo">
+                <h2>Contact Info</h2>
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope"></i></td>
+                        <td> love@cupidinthecloud.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone"></i></td>
+                        <td> +959 790 719 000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="footerInfo">
+            <div><img src="img/redheart.png" alt="redheart"></div>
+            <div>
+                <h2><i class="fa-solid fa-heart"></i>Cupid's Arrow</h2>
+                <span>Divine matchmaking for the modern world.</span><br/><br/>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div>
+                <h2>Services</h2>
+                <ul>
+                    <li>Basic Match</li>
+                    <li>Divine Connection</li>
+                    <li>Soulmate Package</li>
+                    <li>Love Coaching</li>
+                </ul>
+            </div>
+            <div>
+                <h2><i class="fa-solid fa-heart" style="color:rgb(184, 2, 2)"></i>ompany</h2>
+                <ul>
+                    <li>About Us</li>
+                    <li>Success Stories</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Support</h2>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer" style="text-align: center;margin-top: 10px;">
+            <span>&copy;2025 Cupid's Arrow. All rights reserved. Made with <i class="fa-solid fa-heart" style="color: hotpink;"></i> for love </span>
+        </div>
+    </section>
+</body>
+</html>
+

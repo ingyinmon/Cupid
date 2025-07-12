@@ -669,10 +669,12 @@ span {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 #stories .storyimg .story .text{
+    text-align: center;
     height: 100px;
     background-color: #fff;
 }
-#stories .storyimg .story h2, p{
+#stories .storyimg .story .text span{
+    color: #250f0f;
     text-align: center;
     padding: 5px 0;
 }
